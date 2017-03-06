@@ -14,6 +14,9 @@ PeasyCam cam;
 float ZoomX;
 float ZoomY;
 
+float earthorbit = 0;
+float moonorbit = 0;;
+
 //float scale = 1;
 
 void setup()
@@ -91,4 +94,9 @@ void draw()
   textSize(30);
   text("ZoomY  " + ZoomY, 1300, 900);
   text("ZoomX  " + ZoomX, 1300, 950);
+  
+  fill(255, 255, 255);
+  textSize(30);
+  text("Earth Orbit:  " + earthorbit, 50, 900);
+  text("Moon Orbit:   " + moonorbit, 50, 950);
 }

@@ -37,4 +37,8 @@ class Earth
     //zoom();
   }
   
+  private void completedorbit()
+  {
+  }
+  
 }
