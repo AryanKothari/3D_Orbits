@@ -20,7 +20,7 @@ float earthorbit = 0;
 float moonorbit = 0;
 
 
-float screen = 0;
+float screen = 1;
 
 PVector campos = new PVector(946.6418, 241.8144, 753.149);
 
